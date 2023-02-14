@@ -1,11 +1,11 @@
-const hamburgerMenu = document.querySelector('.hamburger-menu');
+const hamburgerMenu = document.querySelector(".hamburger-menu")
 
-hamburgerMenu.addEventListener('click', menuClickHandler);
+hamburgerMenu.addEventListener("click", menuClickHandler)
 
 function menuClickHandler(event) {
-   addOrRemoveClass(hamburgerMenu, 'active');
+    addOrRemoveClass(hamburgerMenu, "active")
 }
 
-function addOrRemoveClass(element, className, method = 'toggle') {
-   element.classList[method](className);
+function addOrRemoveClass(element, className, method = "toggle") {
+    element.classList[method](className)
 }
