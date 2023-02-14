@@ -164,11 +164,11 @@
 .inspiration-content-wrapper {
    z-index: 3;
    gap: 12rem;
-   margin-block: 6rem;
+   margin-block: 6rem 7rem;
 }
 
 .inspiration-content-wrapper h2 {
-   font-size: 4rem;
+   font-size: clamp(2rem, 4vw + 0.675rem, 4rem);
    color: var(--color-white);
    writing-mode: vertical-rl;
    line-height: 1.1;
@@ -219,4 +219,53 @@
    font-size: 2rem;
    font-weight: 400;
    bottom: -5%;
+}
+
+/* -------------------------------- FEATURED PRODUCTS SECTION ---------------------------- */
+
+.featured-products {
+   background-color: var(--color-green);
+   padding-block: 4rem;
+}
+
+.products-container {
+   display: grid;
+   gap: 2rem;
+   grid-template-columns: repeat(8, 1fr);
+   grid-template-rows: repeat(2, auto);
+}
+
+.main-product {
+   position: relative;
+   grid-area: 1 / 1 / 3 / 5;
+}
+
+.main-product h2 {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+   color: var(--color-brown);
+   font-size: clamp(2rem, 4vw + 0.675rem, 4rem);
+   writing-mode: vertical-rl;
+   line-height: 1.1;
+}
+
+.main-product img {
+   height: 100%;
+}
+
+.product-item-1 {
+   grid-area: 1 / 5 / span 1 / span 2;
+}
+
+.product-item-2 {
+   grid-area: 1 / 7 / span 1 / span 2;
+}
+
+.product-item-3 {
+   grid-area: 2 / 5 / span 1 / span 2;
+}
+
+.product-item-4 {
+   grid-area: 2 / 7 / span 1 / span 2;
 }
