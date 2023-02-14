@@ -120,3 +120,103 @@
 .more-direction:hover svg {
    transform: translateX(-0.25rem);
 }
+
+/* -------------------------------- STYLE INSPIRATION SECTION ---------------------------- */
+
+.style-inspiration {
+   background-color: var(--color-cream);
+   overflow-y: hidden;
+}
+
+.big-container {
+   max-width: 1600px;
+   margin-inline: auto;
+   position: relative;
+   align-items: center;
+}
+
+.inspiration-right-image {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 50%;
+   /* height: 100%; */
+}
+
+.explore-more-button {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   margin: 0 3rem 3rem 0;
+   font-weight: 500;
+}
+
+.explore-more-button:hover {
+   opacity: 0.75;
+}
+
+.explore-more-button img {
+   display: inline-block;
+   height: 1em;
+   margin-inline-start: 0.25rem;
+}
+
+.inspiration-content-wrapper {
+   z-index: 3;
+   gap: 12rem;
+   margin-block: 6rem;
+}
+
+.inspiration-content-wrapper h2 {
+   font-size: 4rem;
+   color: var(--color-white);
+   writing-mode: vertical-rl;
+   line-height: 1.1;
+   margin-inline-start: 3rem;
+}
+
+.inspiration-content {
+   color: var(--color-green);
+   position: relative;
+}
+
+.inspiration-content img {
+   max-width: 25rem;
+   margin-block-start: 0.5rem;
+}
+
+.title-wrapper {
+   align-items: baseline;
+   justify-content: space-between;
+}
+
+.title-wrapper h3 {
+   font-size: 2.5rem;
+}
+
+.arrow-right {
+   position: absolute;
+   top: 50%;
+   right: 0rem;
+   width: 7rem;
+   transform-origin: center;
+   transform: rotate(50deg) translate(0, -50%);
+}
+
+.text-decor {
+   position: absolute;
+   color: var(--color-brown);
+   bottom: 5%;
+   left: -50%;
+}
+
+.text-decor__formal {
+   font-size: 2.5rem;
+   font-weight: 600;
+}
+
+.text-decor__street {
+   font-size: 2rem;
+   font-weight: 400;
+   bottom: -5%;
+}
