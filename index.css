@@ -1,0 +1,122 @@
+/* ------------------------------- HERO SECTION ------------------------------- */
+
+.hero {
+   background-color: var(--color-green);
+   padding-block-start: 7rem;
+   overflow-x: hidden;
+}
+
+.heading-container {
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading-container .decoration {
+   position: absolute;
+}
+
+.decoration__square {
+   top: -3rem;
+   left: 0;
+}
+
+.decoration__star {
+   top: 1rem;
+   right: 0;
+}
+
+.heading-wrapper {
+   flex-direction: column;
+}
+
+.heading-wrapper h1 {
+   font-size: clamp(5rem, 10vw, 10rem);
+   line-height: 0.86;
+   text-align: center;
+   z-index: 2;
+   letter-spacing: calc(5 * 0.01em);
+   white-space: nowrap;
+   color: var(--color-brown);
+}
+
+.heading-wrapper p {
+   color: var(--color-cream);
+   text-align: center;
+   font-size: clamp(0.875rem, 1.85vw, 1.5rem);
+   max-width: 24ch;
+   margin-block-start: 1.25rem;
+}
+
+.heading-container .hero-image {
+   min-width: 10rem;
+   max-width: 24rem;
+}
+
+.heading-container .hero-image__left {
+   transform-origin: bottom right;
+   transform: rotate(12deg) translateX(-2rem);
+}
+
+.heading-container .hero-image__right {
+   transform-origin: bottom left;
+   transform: translate(2rem, 2rem) rotate(-10deg);
+}
+
+.hero__subsection {
+   margin-block: 4rem;
+}
+
+.links-wrapper {
+   padding: 0;
+}
+
+.links-wrapper li {
+   font-size: 1.5rem;
+   list-style: none;
+   color: var(--color-brown);
+   text-underline-offset: 0.5rem;
+}
+
+.links-wrapper li:hover {
+   text-decoration: underline;
+}
+
+.links-wrapper li:not(:first-child) {
+   margin-block-start: 1rem;
+}
+
+.shop-button {
+   display: block;
+   margin-inline-start: -12%;
+   width: 8rem;
+}
+
+.shop-button svg {
+   transition: transform 500ms ease;
+   width: 100%;
+}
+
+.shop-button:hover svg {
+   transform: rotate(360deg);
+}
+
+.more-direction {
+   display: block;
+   color: var(--color-white);
+   transform: rotate(90deg) translateX(0.75rem);
+   overflow-x: hidden;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.more-direction svg {
+   margin-block-start: -1rem;
+   transform-origin: center left;
+   transition: transform 200ms ease;
+   transform: translateX(-1.5rem);
+}
+
+.more-direction:hover svg {
+   transform: translateX(-0.25rem);
+}
