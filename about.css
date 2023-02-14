@@ -1,0 +1,192 @@
+.about {
+    text-align: center;
+}
+
+.ab {
+    height: auto;
+    width: 1520px;
+}
+.title {
+    color: white;
+    font-size: 145px;
+    position: absolute;
+    top: 260px;
+    left: 350px;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    color: #d7cdc5;
+    font-size: 35px;
+    font-weight: 600;
+    transform: scale(1, 1.5);
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    font-weight: 800;
+}
+.arrow {
+    position: absolute;
+    top: 800px;
+    left: 750px;
+}
+
+.abouttext {
+    color: white;
+    position: absolute;
+    top: 800px;
+    left: 770px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.topbrands {
+    background-color: #1b2f26;
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.text {
+    color: #c17d4c;
+    font-size: 45px;
+    font-weight: 600;
+    position: relative;
+    top: 60px;
+}
+
+.text1 {
+    color: white;
+    position: relative;
+    top: 80px;
+}
+
+.brands {
+    text-align: left;
+    line-height: 75px;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+
+.lines {
+    padding: 50px;
+    position: relative;
+    top: 15px;
+}
+
+.line-1 {
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -450px;
+}
+
+.line-2 {
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -375px;
+}
+
+.line-3 {
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -300px;
+}
+
+.line-4 {
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -225px;
+}
+
+.line-5 {
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -150px;
+}
+
+.line-6 {
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -75px;
+}
+
+.testimony {
+    background-color: #d7cdc5;
+    height: 65vh;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.t-text {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+span {
+    color: #c17d4c;
+}
+
+.t-image {
+    position: relative;
+    top: 20px;
+    left: 480px;
+    height: auto;
+    width: 280px;
+}
+
+.t-image2 {
+    position: relative;
+    top: -250px;
+    left: 1200px;
+    height: auto;
+    width: 250px;
+}
+
+.testimony1 {
+    position: absolute;
+    top: 2050px;
+    left: 100px;
+}
+
+.testimony2 {
+    position: absolute;
+    top: 2050px;
+    left: 900px;
+}
+
+.t-description {
+    font-weight: 700;
+    position: absolute;
+    top: 2190px;
+    left: 100px;
+}
+
+.t-description .span1 {
+    font-size: 13px;
+    color: black;
+}
+
+.t-description2 {
+    font-weight: 700;
+    position: absolute;
+    top: 2190px;
+    left: 900px;
+}
+
+.t-description2 .span1 {
+    font-size: 13px;
+    color: black;
+}

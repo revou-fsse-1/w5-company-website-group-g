@@ -164,11 +164,11 @@
 .inspiration-content-wrapper {
     z-index: 3;
     gap: 12rem;
-    margin-block: 6rem 7rem;
+    margin-block: 6rem;
 }
 
 .inspiration-content-wrapper h2 {
-    font-size: clamp(2rem, 4vw + 0.675rem, 4rem);
+    font-size: 4rem;
     color: var(--color-white);
     writing-mode: vertical-rl;
     line-height: 1.1;
