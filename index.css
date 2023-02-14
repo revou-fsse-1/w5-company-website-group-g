@@ -164,7 +164,7 @@
 .inspiration-content-wrapper {
     z-index: 3;
     gap: 12rem;
-    margin-block: 6rem;
+    margin-block: 6rem 7rem;
 }
 
 .inspiration-content-wrapper h2 {
