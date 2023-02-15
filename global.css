@@ -34,7 +34,6 @@ dd {
 /* Set core root defaults */
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 /* Set core body defaults */
@@ -42,6 +41,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    overflow-x: hidden;
     font-family: var(--font-inter);
 }
 
