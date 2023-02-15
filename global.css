@@ -93,6 +93,9 @@ header {
     background-color: var(--color-green);
     padding-block: 1rem;
     border-bottom: 1px solid var(--color-white);
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .logo {
@@ -141,6 +144,19 @@ header {
     display: none;
 }
 
+.mobile-search {
+    display: none;
+}
+
+.mobile-search .input-wrapper {
+    margin-left: 0;
+    margin-block: 0.75rem 0.5rem;
+}
+
+.mobile-search .input-wrapper .search-input {
+    width: 100%;
+}
+
 .hamburger-menu {
     background-color: transparent;
     border: none;
@@ -180,4 +196,18 @@ header {
 .hamburger-menu.active .line-menu:last-child {
     transform-origin: center right;
     transform: scale(1, 1) rotate(45deg);
+}
+
+.hide-for-small-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .hide-for-desktop {
+        display: block;
+    }
+
+    .hide-for-mobile {
+        display: none;
+    }
 }

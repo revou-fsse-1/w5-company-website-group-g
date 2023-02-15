@@ -20,7 +20,7 @@
         <header>
             <div class="container flex-sb-center">
                 <a class="logo" href="/">CLIQENGO.</a>
-                <div class="input-wrapper">
+                <div class="input-wrapper hide-for-mobile">
                     <img
                         class="input-icon"
                         src="/assets/icons/search-icon.svg"
@@ -38,6 +38,21 @@
                     <span class="line-menu"></span>
                 </button>
             </div>
+
+            <div class="mobile-search container hide-for-desktop">
+                <div class="input-wrapper">
+                    <img
+                        class="input-icon"
+                        src="/assets/icons/search-icon.svg"
+                        alt="search icon"
+                    />
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search"
+                    />
+                </div>
+            </div>
         </header>
 
         <!-- HERO SECTION -->
@@ -45,12 +60,12 @@
             <div class="container">
                 <div class="heading-container flex">
                     <img
-                        class="decoration decoration__square"
+                        class="decoration decoration__square hide-for-mobile"
                         src="/assets/icons/twin-square-decoration.svg"
                         alt="square decoration"
                     />
                     <img
-                        class="decoration decoration__star"
+                        class="decoration decoration__star hide-for-mobile"
                         src="/assets/icons/star-decoration.svg"
                         alt="star decoration"
                     />
@@ -78,7 +93,7 @@
                 </div>
 
                 <div class="hero__subsection flex-sb-center">
-                    <ul class="links-wrapper">
+                    <ul class="links-wrapper hide-for-mobile">
                         <li><a href="#">FEATURED PRODUCTS</a></li>
                         <li><a href="#">INSPIRATIONS</a></li>
                     </ul>
@@ -116,7 +131,7 @@
                         </svg>
                     </a>
 
-                    <a class="more-direction">
+                    <a class="more-direction hide-for-mobile">
                         <p>MORE</p>
                         <svg
                             width="108"
