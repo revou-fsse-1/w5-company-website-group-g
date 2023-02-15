@@ -202,6 +202,18 @@ header {
     display: none;
 }
 
+footer {
+    background-color: var(--color-brown);
+    color: var(--color-white);
+    padding-block: 1rem;
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+
+footer .links-container {
+    gap: 1.5rem;
+}
+
 @media screen and (max-width: 720px) {
     .hide-for-desktop {
         display: block;
@@ -209,5 +221,15 @@ header {
 
     .hide-for-mobile {
         display: none;
+    }
+
+    footer {
+        font-size: 0.625rem;
+    }
+
+    footer .links-container {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
