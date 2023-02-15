@@ -20,7 +20,7 @@
         <header>
             <div class="container flex-sb-center">
                 <a class="logo" href="/">CLIQENGO.</a>
-                <div class="input-wrapper">
+                <div class="input-wrapper hide-for-mobile">
                     <img
                         class="input-icon"
                         src="/assets/icons/search-icon.svg"
@@ -38,6 +38,30 @@
                     <span class="line-menu"></span>
                 </button>
             </div>
+
+            <div class="mobile-search container hide-for-desktop">
+                <div class="input-wrapper">
+                    <img
+                        class="input-icon"
+                        src="/assets/icons/search-icon.svg"
+                        alt="search icon"
+                    />
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search"
+                    />
+                </div>
+            </div>
+
+            <nav class="menu-box flex">
+                <ul>
+                    <li><a href="/">Home.</a></li>
+                    <li><a href="/about.html">About.</a></li>
+                    <li><a href="/product.html">Product.</a></li>
+                    <li><a href="/contact.html">Contact.</a></li>
+                </ul>
+            </nav>
         </header>
 
         <!-- HERO SECTION -->
@@ -45,12 +69,12 @@
             <div class="container">
                 <div class="heading-container flex">
                     <img
-                        class="decoration decoration__square"
+                        class="decoration decoration__square hide-for-mobile"
                         src="/assets/icons/twin-square-decoration.svg"
                         alt="square decoration"
                     />
                     <img
-                        class="decoration decoration__star"
+                        class="decoration decoration__star hide-for-mobile"
                         src="/assets/icons/star-decoration.svg"
                         alt="star decoration"
                     />
@@ -78,7 +102,7 @@
                 </div>
 
                 <div class="hero__subsection flex-sb-center">
-                    <ul class="links-wrapper">
+                    <ul class="links-wrapper hide-for-mobile">
                         <li><a href="#">FEATURED PRODUCTS</a></li>
                         <li><a href="#">INSPIRATIONS</a></li>
                     </ul>
@@ -116,7 +140,7 @@
                         </svg>
                     </a>
 
-                    <a class="more-direction">
+                    <a class="more-direction hide-for-mobile">
                         <p>MORE</p>
                         <svg
                             width="108"
@@ -193,5 +217,49 @@
                 </div>
             </div>
         </section>
+
+        <!-- FEATURED PRODUCTS SECTION -->
+        <section class="featured-products">
+            <div class="products-container container">
+                <div class="main-product">
+                    <h2>
+                        FEATURED <br />
+                        PRODUCTS
+                    </h2>
+                    <img src="/assets/featured-product-1.png" alt="" />
+                </div>
+                <img
+                    class="product-item-1"
+                    src="assets/featured-product-2.png"
+                    alt="product image 1"
+                />
+                <img
+                    class="product-item-2"
+                    src="assets/featured-product-3.png"
+                    alt="product image 2"
+                />
+                <img
+                    class="product-item-3"
+                    src="assets/featured-product-2.png"
+                    alt="product image 3"
+                />
+                <img
+                    class="product-item-4"
+                    src="assets/featured-product-4.png"
+                    alt="product image 4"
+                />
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container flex links-container">
+                <a href="#">Terms and Condition.</a>
+                <a href="#">Privacy Policy.</a>
+                <a href="#">Cookie Policy.</a>
+                <a href="#">Configure Cookies.</a>
+                <a href="#">Site Map.</a>
+            </div>
+        </footer>
     </body>
 </html>
