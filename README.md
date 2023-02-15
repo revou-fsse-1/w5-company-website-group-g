@@ -14,6 +14,4 @@ Cliqengo is a fictional fashion brand 👗 that caters to the needs of stylish i
 
 ## :paintbrush: UI Design
 
-The UI designed used in this project was originally created by @winonaivana and heavily modified by @rafadev777 🤘🏼.
-
 **Figma Link: [`Go to Figma`](https://www.figma.com/file/Ht9RQSv2oKki2TJy8qFttx/winonaivana?node-id=222%3A312&t=PgY2lU53pO0JLkcw-1)**
