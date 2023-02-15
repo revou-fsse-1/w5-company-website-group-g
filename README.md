@@ -15,3 +15,5 @@ Cliqengo is a fictional fashion brand 👗 that caters to the needs of stylish i
 ## :paintbrush: UI Design
 
 **Figma Link: [`Go to Figma`](https://www.figma.com/file/Ht9RQSv2oKki2TJy8qFttx/winonaivana?node-id=222%3A312&t=PgY2lU53pO0JLkcw-1)**
+
+![cliqngo-homepage](https://raw.githubusercontent.com/aldwiputra/aldwiputra/main/images/cliqengo-aboutpage.png)
