@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    gap:20px;
+}
+
+section.contact-us {
+    background-color: var(--color-green);
+}
+
+select:required:invalid {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+}
+
+input, select, textarea {
+    border:none;
+    border-bottom: 1px var(--color-white);
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+input, textarea{
+    color:var(--color-white);
+}
+
+input::placeholder, textarea::placeholder, option[value="default"] {
+color: rgba(255, 255, 255, 0.4);
+font-style: italic;
+}
+
