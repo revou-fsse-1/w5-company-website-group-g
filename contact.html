@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
+    <head>
+        <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,113 +14,142 @@
         <link rel="stylesheet" href="contact.css" />
         <script src="index.js" defer></script>
         <title>CLIQENGO - Contact</title>
-</head>
-<body>
-    <header>
-        <div class="container flex-sb-center">
-            <a class="logo" href="/">CLIQENGO.</a>
-            <div class="input-wrapper">
-                <img
-                    class="input-icon"
-                    src="/assets/icons/search-icon.svg"
-                    alt="search icon"
-                />
-                <input
-                    class="search-input"
-                    type="search"
-                    placeholder="Search"
-                />
+    </head>
+    <body>
+        <header>
+            <div class="container flex-sb-center">
+                <a class="logo" href="/">CLIQENGO.</a>
+                <div class="input-wrapper">
+                    <img
+                        class="input-icon"
+                        src="/assets/icons/search-icon.svg"
+                        alt="search icon"
+                    />
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search"
+                    />
+                </div>
+                <button class="hamburger-menu">
+                    <span class="line-menu"></span>
+                    <span class="line-menu"></span>
+                    <span class="line-menu"></span>
+                </button>
             </div>
-            <button class="hamburger-menu">
-                <span class="line-menu"></span>
-                <span class="line-menu"></span>
-                <span class="line-menu"></span>
-            </button>
-        </div>
-    </header>
-    <!-- CONTACT US -->
-    <section class="contact-us">
-    <div class="title-container">
-        <h2>
-            Contact us
-        </h2>
-    </div>
-    <p>
-        Choose your preferred method of contact to connect with our customer service team or find out more informations with our FAQ
-    </p>
-    <form>
-    <input 
-        class="name-input" required
-        type="text"
-        placeholder="Full Name"
-    />
-    <input 
-        class="email-input" required
-        type="email"
-        placeholder="Email"
-    />
-    <select>
-        <option value="" selected disabled hidden>Select Subject</option>
-        <option value="">Customer Service</option>
-        <option value="">Product Complain</option>
-        <option value="">Business Query</option>
-    </select>
-    <textarea name="message" rows="10" cols="30" placeholder="Send us a message"></textarea>
-</form>
-<div class="FAQ container">
-    <h2>FAQ</h2>
-    <div class="question container">
-        <a>
-            <p>
-                How can I repair my CLIQENGO. product?
-            </p>
-            <div class="arrow">
-                <img>
+        </header>
+        <!-- CONTACT US -->
+        <section class="contact-us">
+            <div class="grid container">
+                <div class="grid-item title-container">
+                    <h2>CONTACT<br />US</h2>
+                </div>
+                <div class="grid-item">
+                    <p class="contact-us-description">
+                        Choose your preferred method of contact to connect with
+                        our customer service team or find out more informations
+                        with our FAQ
+                    </p>
+                    <form class="contact-us-form">
+                        <div>
+                            <input
+                                class="name-input"
+                                required
+                                type="text"
+                                placeholder="Full Name"
+                            />
+                        </div>
+                        <div>
+                            <input
+                                class="email-input"
+                                required
+                                type="email"
+                                placeholder="Email"
+                            />
+                        </div>
+                        <div>
+                            <select>
+                                <option value="" selected disabled hidden>
+                                    Select Subject
+                                </option>
+                                <option value="">Customer Service</option>
+                                <option value="">Product Complain</option>
+                                <option value="">Business Query</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea
+                                name="message"
+                                rows="10"
+                                cols="30"
+                                placeholder="Send us a message"
+                            ></textarea>
+                        </div>
+                        <button>Send</button>
+                    </form>
+                </div>
+                <div class="grid-item">
+                    <div class="FAQ container">
+                        <h3>FAQ</h3>
+                        <div class="question container">
+                            <a>
+                                <p>How can I repair my CLIQENGO. product?</p>
+                                <div class="arrow">
+                                    <img />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="question container">
+                            <a>
+                                <p>
+                                    Are the restrictions in terms of delivery
+                                    addresses?
+                                </p>
+                                <div class="arrow">
+                                    <img />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="question container">
+                            <a>
+                                <p>How can I repair my CLIQENGO. product?</p>
+                                <div class="arrow">
+                                    <img />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="question container">
+                            <a>
+                                <p>more ...</p>
+                                <div class="arrow">
+                                    <img />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Connect</h3>
+                        <div class="soc-med flex">
+                            <a
+                                ><img
+                                    src="./assets/icons/twin-square-decoration.svg"
+                            /></a>
+                            <a
+                                ><img
+                                    src="./assets/icons/twin-square-decoration.svg"
+                            /></a>
+                            <a
+                                ><img
+                                    src="./assets/icons/twin-square-decoration.svg"
+                            /></a>
+                            <a
+                                ><img
+                                    src="./assets/icons/twin-square-decoration.svg"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </a>
-    </div>
-    <div class="question container">
-        <a>
-            <p>
-                Are the restrictions in terms of delivery addresses?
-            </p>
-            <div class="arrow">
-                <img>
-            </div>
-        </a>
-    </div>
-    <div class="question container">
-        <a>
-            <p>
-                How can I repair my CLIQENGO. product?
-            </p>
-            <div class="arrow">
-                <img>
-            </div>
-        </a>
-    </div>
-    <div class="question container">
-        <a>
-            <p>
-                more ...
-            </p>
-            <div class="arrow">
-                <img>
-            </div>
-        </a>
-    </div>
-</div>
-<div>
-    <h2>
-        Connect
-    </h2>
-    <div class="soc-med flex">
-        <a><img src="./assets/icons/twin-square-decoration.svg"/></a>
-        <a><img src="./assets/icons/twin-square-decoration.svg"/></a>
-        <a><img src="./assets/icons/twin-square-decoration.svg"/></a>
-        <a><img src="./assets/icons/twin-square-decoration.svg"/></a>
-    </div>
-</div>
-</section>
-</body>
+        </section>
+    </body>
 </html>

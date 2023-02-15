@@ -1,33 +1,27 @@
-.contact-us h2, .contact-us p{
-    color:var(--color-white)
+.contact-us h2,
+.contact-us p,
+.contact-us h3 {
+    color: var(--color-white);
 }
+
+.contact-us h2 {
+    writing-mode: vertical-rl;
+    color: var(--color-brown);
+    font-size: 3rem;
+    line-height: 100%;
+}
+
 .flex {
     display: flex;
-    gap:20px;
 }
 
 section.contact-us {
     background-color: var(--color-green);
 }
 
-select:required:invalid {
-    color: rgba(255, 255, 255, 0.4);
-    font-style: italic;
+.grid.container {
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    gap: 4rem;
+    min-height: 100vh;
 }
-
-input, select, textarea {
-    border:none;
-    border-bottom: 1px var(--color-white);
-    background-color: rgba(0, 0, 0, 0);
-    
-}
-
-input, textarea{
-    color:var(--color-white);
-}
-
-input::placeholder, textarea::placeholder, option[value="default"] {
-color: rgba(255, 255, 255, 0.4);
-font-style: italic;
-}
-
