@@ -1,3 +1,6 @@
+.contact-us h2, .contact-us p{
+    color:var(--color-white)
+}
 .flex {
     display: flex;
     gap:20px;
