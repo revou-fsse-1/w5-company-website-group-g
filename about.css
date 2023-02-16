@@ -9,10 +9,7 @@
     
 }
 
-.ab {
-    position: relative;
-    top: -100px;
-}
+
 
 .title {
     color: white;
@@ -38,7 +35,7 @@
 .abouttext {
     color: white;
     position: relative;
-    top: 250px;
+    top: 160px;
     left: 420px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -75,6 +72,7 @@
     display: flex;
     justify-content: center;
     gap: 1000px;
+    
 }
 
 
@@ -133,39 +131,13 @@
 
 
 
-
-
-.lines {
- align-items: center;
-  
-  
-}
-
-.line1 {
-    
-    height: 1px;
-    width: 1300px;
-    background: white;
-    
-    position: relative;
-    top: -470px;
-    left: 60px;
-    
-    
-    
-
-}
-
-
-
-
 .testimonysection {
     background-color: #d7cdc5;
     height: 65vh;
 }
 
 .testimony {
-   height: 65vh;
+    height: 65vh;
     text-align: left;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -217,9 +189,6 @@ span  {
     left: -380px;
 }
 
-span .span0 {
-    font-size: 20px;
-}
 
 .ttext2 {
     position: relative;
@@ -228,5 +197,64 @@ span .span0 {
 }
 
 
+@media (max-width: 1250px) {
+    .ttext1 {
+        position: relative;
+        top: -150px;
+        left: -340px;
+    }
+}
+
+@media (max-width: 1175px) {
+    .ttext1 {
+        position: relative;
+        top: -150px;
+        left: -300px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .testimony {
+        height: 65vh;
+        text-align: left;
+        overflow-x: hidden;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 40px;
+    
+    }
 
 
+.t-image {
+    position: relative;
+    left: 100px;
+    top: 0px;
+    height: auto;
+    width: 280px;
+    align-self: center;
+}
+
+.t-image2 {
+    position: relative;
+    top: 0px;
+    height: auto;
+    width: 250px;
+    align-self: center;
+}
+
+.ttext1 {
+    position: relative;
+    top: -240px;
+    left: -200px;
+}
+
+
+.ttext2 {
+    position: relative;
+    top: -150px;
+    left: -280px;
+}
+}
