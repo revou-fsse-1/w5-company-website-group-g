@@ -1,17 +1,23 @@
 .about {
     text-align: center;
+    align-items: center;
+    display: flex;
+    background-image: url(assets/about-hero.png);
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .ab {
-    height: auto;
-    width: 1520px;
+    position: relative;
+    top: -100px;
 }
+
 .title {
     color: white;
-    font-size: 145px;
-    position: absolute;
-    top: 260px;
-    left: 350px;
+    font-size: 145px; 
+
     letter-spacing: 5px;
 }
 
@@ -20,22 +26,20 @@
     font-size: 35px;
     font-weight: 600;
     transform: scale(1, 1.5);
-    position: absolute;
-    top: 450px;
-    left: 600px;
+    
     font-weight: 800;
 }
 .arrow {
-    position: absolute;
-    top: 800px;
-    left: 750px;
+    position: relative;
+    top: 100px;
+    
 }
 
 .abouttext {
     color: white;
-    position: absolute;
-    top: 800px;
-    left: 770px;
+    position: relative;
+    top: 250px;
+    left: 420px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
@@ -67,126 +71,162 @@
     line-height: 75px;
     color: white;
     position: relative;
-    top: 90px;
-    left: 80px;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 1000px;
 }
+
+
+.brands2 {
+    text-align: left;
+    line-height: 75px;
+    color: white;
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 1050px;
+}
+
+.brands3 {
+    text-align: left;
+    line-height: 75px;
+    color: white;
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 1030px;
+}
+
+.brands4 {
+    text-align: left;
+    line-height: 75px;
+    color: white;
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 1040px;
+}
+.brands5 {
+    text-align: left;
+    line-height: 75px;
+    color: white;
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 980px;
+}
+.brands6 {
+    text-align: left;
+    line-height: 75px;
+    color: white;
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 990px;
+}
+
+
+
+
 
 .lines {
-    padding: 50px;
-    position: relative;
-    top: 15px;
+ align-items: center;
+  
+  
 }
 
-.line-1 {
+.line1 {
+    
     height: 1px;
+    width: 1300px;
     background: white;
+    
     position: relative;
-    top: -450px;
+    top: -470px;
+    left: 60px;
+    
+    
+    
+
 }
 
-.line-2 {
-    height: 1px;
-    background: white;
-    position: relative;
-    top: -375px;
-}
 
-.line-3 {
-    height: 1px;
-    background: white;
-    position: relative;
-    top: -300px;
-}
 
-.line-4 {
-    height: 1px;
-    background: white;
-    position: relative;
-    top: -225px;
-}
 
-.line-5 {
-    height: 1px;
-    background: white;
-    position: relative;
-    top: -150px;
-}
-
-.line-6 {
-    height: 1px;
-    background: white;
-    position: relative;
-    top: -75px;
+.testimonysection {
+    background-color: #d7cdc5;
+    height: 65vh;
 }
 
 .testimony {
-    background-color: #d7cdc5;
-    height: 65vh;
+   height: 65vh;
     text-align: left;
     overflow-x: hidden;
     overflow-y: hidden;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    row-gap: 10px;
+    padding: 40px;
+
 }
+
+
 
 .t-text {
     color: black;
     font-size: 40px;
     font-weight: 600;
     position: relative;
-    top: 20px;
-    left: 50px;
+    top: -20px;
+
+    
 }
-span {
+span  {
     color: #c17d4c;
 }
 
 .t-image {
     position: relative;
-    top: 20px;
-    left: 480px;
+    left: -80px;
+    top: 80px;
     height: auto;
     width: 280px;
+    align-self: center;
 }
 
 .t-image2 {
     position: relative;
-    top: -250px;
-    left: 1200px;
+    top: 80px;
     height: auto;
     width: 250px;
+    align-self: center;
 }
 
-.testimony1 {
-    position: absolute;
-    top: 2050px;
-    left: 100px;
+.ttext1 {
+    position: relative;
+    top: -150px;
+    left: -380px;
 }
 
-.testimony2 {
-    position: absolute;
-    top: 2050px;
-    left: 900px;
+span .span0 {
+    font-size: 20px;
 }
 
-.t-description {
-    font-weight: 700;
-    position: absolute;
-    top: 2190px;
-    left: 100px;
+.ttext2 {
+    position: relative;
+    top: -150px;
+    left: -280px;
 }
 
-.t-description .span1 {
-    font-size: 13px;
-    color: black;
-}
 
-.t-description2 {
-    font-weight: 700;
-    position: absolute;
-    top: 2190px;
-    left: 900px;
-}
 
-.t-description2 .span1 {
-    font-size: 13px;
-    color: black;
-}
+

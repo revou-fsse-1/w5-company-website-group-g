@@ -1,0 +1,227 @@
+.formal {
+    height: 100vh;
+    background-color: #d7cdc5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    
+}
+
+.ftitle {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    top: 70px;
+    left: 160px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.ftitle2 {
+    color: #c17d4c;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -225px;
+    left: 250px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 200px;
+    position: relative;
+    top: -630px;
+    left: 100px;
+    
+}
+.fstyle1 {
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: -20px;
+    transition: all 0.8s;
+}
+
+.fstyle1:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.fstyle2 {
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    transition: all 0.8s;
+}
+
+.fstyle2:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.fstyle3 {
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    transition: all 0.8s;
+}
+
+.fstyle3:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.text {
+    position: relative;
+    font-weight: bold;
+}
+
+.text2 {
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+
+.text3 {
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+}
+
+span {
+    font-weight: 400;
+}
+
+.square {
+    position: relative;
+    top: 350px;
+    left: -150px;
+}
+
+.star {
+    position: relative;
+    top: -600px;
+    left: 180px;
+}
+
+.street {
+    height: 100vh;
+    background-color: #1b2f26;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+
+.images1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 200px;
+    position: relative;
+    top: -600px;
+    left: 100px;
+}
+.stitle {
+    color: #c17d4c;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    top: 70px;
+    left: 160px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.stitle2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -210px;
+    left: 250px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.sstyle1 {
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: -20px;
+    transition: all 0.8s;
+}
+.sstyle1:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.sstyle2 {
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    transition: all 0.8s;
+}
+.sstyle2:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.sstyle3 {
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    transition: all 0.8s;
+}
+
+.sstyle3:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.square1 {
+    position: relative;
+    top: 350px;
+    left: -150px;
+}
+
+.star1 {
+    position: relative;
+    top: -600px;
+    left: 180px;
+}
+
+.stext {
+    color: white;
+    font-weight: bold;
+    
+}
+
+.stext2 {
+    color: white;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+
+}
+
+.stext3 {
+    color: white;
+    position: relative;
+    top: 100px;
+    
+}
