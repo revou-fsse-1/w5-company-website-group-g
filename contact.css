@@ -11,17 +11,82 @@
     line-height: 100%;
 }
 
-.flex {
-    display: flex;
-}
-
 section.contact-us {
     background-color: var(--color-green);
 }
 
 .grid.container {
     display: grid;
-    grid-template-columns: 10% 45% 45%;
+    grid-template-columns: 10% 40% 40%;
     gap: 4rem;
     min-height: 100vh;
+    padding-top: 100px;
+}
+/* form */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 2rem;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-position-x: 100%;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+select:invalid {
+    color: gray;
+}
+
+option[value=""] {
+    color: var(--color-green);
+}
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button[type="submit"] {
+    background-color: var(--color-brown);
+    color: white;
+    padding: 1em 3em;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+
+/* FAQ */
+.question-container {
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+a.flex {
+    align-content: center;
+    justify-content: space-between;
+}
+
+a.flex p {
+    max-width: 60%;
+}
+
+/* Connect */
+
+.connect-container {
+    margin-top: 4rem;
+}
+
+.soc-med.flex {
+    gap: 2rem;
+    margin-top: 2rem;
 }

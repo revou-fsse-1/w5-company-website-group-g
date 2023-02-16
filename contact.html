@@ -19,7 +19,7 @@
         <header>
             <div class="container flex-sb-center">
                 <a class="logo" href="/">CLIQENGO.</a>
-                <div class="input-wrapper">
+                <div class="input-wrapper hide-for-mobile">
                     <img
                         class="input-icon"
                         src="/assets/icons/search-icon.svg"
@@ -37,6 +37,30 @@
                     <span class="line-menu"></span>
                 </button>
             </div>
+
+            <div class="mobile-search container hide-for-desktop">
+                <div class="input-wrapper">
+                    <img
+                        class="input-icon"
+                        src="/assets/icons/search-icon.svg"
+                        alt="search icon"
+                    />
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search"
+                    />
+                </div>
+            </div>
+
+            <nav class="menu-box flex">
+                <ul>
+                    <li><a href="/">Home.</a></li>
+                    <li><a href="/about.html">About.</a></li>
+                    <li><a href="/product.html">Product.</a></li>
+                    <li><a href="/contact.html">Contact.</a></li>
+                </ul>
+            </nav>
         </header>
         <!-- CONTACT US -->
         <section class="contact-us">
@@ -68,7 +92,7 @@
                             />
                         </div>
                         <div>
-                            <select>
+                            <select required>
                                 <option value="" selected disabled hidden>
                                     Select Subject
                                 </option>
@@ -85,49 +109,52 @@
                                 placeholder="Send us a message"
                             ></textarea>
                         </div>
-                        <button>Send</button>
+                        <div class="btn-container">
+                            <button type="submit">Submit</button>
+                        </div>
                     </form>
                 </div>
                 <div class="grid-item">
-                    <div class="FAQ container">
+                    <div class="faq-container">
                         <h3>FAQ</h3>
-                        <div class="question container">
-                            <a>
+                        <div class="question-container">
+                            <a class="flex">
                                 <p>How can I repair my CLIQENGO. product?</p>
-                                <div class="arrow">
-                                    <img />
-                                </div>
+                                <img
+                                    src="./assets/icons/long-arrow-right.svg"
+                                />
                             </a>
                         </div>
-                        <div class="question container">
-                            <a>
+                        <div class="question-container">
+                            <a class="flex">
                                 <p>
                                     Are the restrictions in terms of delivery
                                     addresses?
                                 </p>
-                                <div class="arrow">
-                                    <img />
-                                </div>
+
+                                <img
+                                    src="./assets/icons/long-arrow-right.svg"
+                                />
                             </a>
                         </div>
-                        <div class="question container">
-                            <a>
+                        <div class="question-container">
+                            <a class="flex">
                                 <p>How can I repair my CLIQENGO. product?</p>
-                                <div class="arrow">
-                                    <img />
-                                </div>
+                                <img
+                                    src="./assets/icons/long-arrow-right.svg"
+                                />
                             </a>
                         </div>
-                        <div class="question container">
-                            <a>
+                        <div class="question-container">
+                            <a class="flex">
                                 <p>more ...</p>
-                                <div class="arrow">
-                                    <img />
-                                </div>
+                                <img
+                                    src="./assets/icons/long-arrow-right.svg"
+                                />
                             </a>
                         </div>
                     </div>
-                    <div>
+                    <div class="connect-container">
                         <h3>Connect</h3>
                         <div class="soc-med flex">
                             <a
@@ -151,5 +178,14 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="container flex links-container">
+                <a href="#">Terms and Condition.</a>
+                <a href="#">Privacy Policy.</a>
+                <a href="#">Cookie Policy.</a>
+                <a href="#">Configure Cookies.</a>
+                <a href="#">Site Map.</a>
+            </div>
+        </footer>
     </body>
 </html>
