@@ -15,13 +15,23 @@ section.contact-us {
     background-color: var(--color-green);
 }
 
-.grid.container {
-    display: grid;
-    grid-template-columns: 10% 40% 40%;
-    gap: 4rem;
+.contact-us > .flex.container {
     min-height: 100vh;
     padding-top: 100px;
 }
+.contact-us {
+    padding-bottom: 7rem;
+}
+.flex-item-1 {
+    flex:10%;
+}
+.flex-item-2 ,.flex-item-3 {
+    flex:40%;
+}
+.flex-item-3{
+    margin-left: 4rem;
+}
+
 /* form */
 input[type="text"],
 input[type="email"],
@@ -34,7 +44,9 @@ textarea {
     color: white;
     margin-top: 2rem;
 }
-
+.p-2{
+    display: none   ;
+}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -89,4 +101,30 @@ a.flex p {
 .soc-med.flex {
     gap: 2rem;
     margin-top: 2rem;
+}
+
+/* Media Query ------------------------------------- */
+@media (max-width: 400px){
+
+.contact-us > .flex.container{
+    flex-wrap: wrap;
+}
+.title-container {
+  display: inherit;
+  align-items: flex-end;  
+}
+
+.flex-item-1 ,.flex-item-2 ,.flex-item-3{
+    margin-left: 0;
+    flex: 100%;
+}
+
+.p-2{
+    display: block;
+    margin-left: 1.5rem;
+}
+
+.p-1{
+    display: none;
+}
 }
