@@ -8,12 +8,14 @@ Cliqengo is a fictional fashion brand 👗 that caters to the needs of stylish i
 
 ## :link: Links & URLs
 
-**With Custom Domain: [`cliqengo.aldwiputra.site`](https://cliqengo.aldwiputra.site)**
+With Custom Domain: [cliqengo.rafajo.my.id](https://cliqengo.rafajo.my.id) |
+[cliqengo.winonaivana.com](https://cliqengo.winonaivana.com) |
+[cliqengo.aldwiputra.site](https://cliqengo.aldwiputra.site)
 
-**Netlify's Domain: [`cliqengo.netlify.app`](https://cliqengo.netlify.app)**
+Netlify's Domain: [cliqengo.netlify.app](https://cliqengo.netlify.app)
 
 ## :paintbrush: UI Design
 
-**Figma Link: [`Go to Figma`](https://www.figma.com/file/Ht9RQSv2oKki2TJy8qFttx/winonaivana?node-id=222%3A312&t=PgY2lU53pO0JLkcw-1)**
+Figma Link: [Go to Figma](https://www.figma.com/file/Ht9RQSv2oKki2TJy8qFttx/winonaivana?node-id=222%3A312&t=PgY2lU53pO0JLkcw-1)
 
 ![cliqngo-homepage](https://raw.githubusercontent.com/aldwiputra/aldwiputra/main/images/cliqengo-aboutpage.png)
