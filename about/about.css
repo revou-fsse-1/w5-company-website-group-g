@@ -6,7 +6,7 @@ body {
     text-align: center;
     align-items: center;
     display: flex;
-    background-image: url(assets/about-hero.png);
+    background-image: url(/assets/about-hero.png);
     height: 100vh;
     flex-direction: column;
     justify-content: center;
