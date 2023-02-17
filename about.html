@@ -17,93 +17,132 @@
   </head>
   <body>
     <header>
-      <div class="container flex-sb-center">
-        <a class="logo" href="/">CLIQENGO.</a>
-        <div class="input-wrapper">
-          <img
-            class="input-icon"
-            src="/assets/icons/search-icon.svg"
-            alt="search icon"
-          />
-          <input class="search-input" type="search" placeholder="Search" />
+        <div class="container flex-sb-center">
+          <a class="logo" href="/">CLIQENGO.</a>
+          <div class="input-wrapper hide-for-mobile">
+            <img
+              class="input-icon"
+              src="/assets/icons/search-icon.svg"
+              alt="search icon"
+            />
+            <input class="search-input" type="search" placeholder="Search" />
+          </div>
+          <button class="hamburger-menu">
+            <span class="line-menu"></span>
+            <span class="line-menu"></span>
+            <span class="line-menu"></span>
+          </button>
         </div>
-        <button class="hamburger-menu">
-          <span class="line-menu"></span>
-          <span class="line-menu"></span>
-          <span class="line-menu"></span>
-        </button>
-      </div>
-    </header>
-    <div class="about">
-      <img src="assets/about-hero.png" class="ab" />
-      <img src="assets/icons/long-arrow.svg" class="arrow" />
+  
+        <div class="mobile-search container hide-for-desktop">
+          <div class="input-wrapper">
+            <img
+              class="input-icon"
+              src="/assets/icons/search-icon.svg"
+              alt="search icon"
+            />
+            <input class="search-input" type="search" placeholder="Search" />
+          </div>
+        </div>
+  
+        <nav class="menu-box flex">
+          <ul>
+            <li><a href="/">Home.</a></li>
+            <li><a href="/about">About.</a></li>
+            <li><a href="/product">Product.</a></li>
+            <li><a href="/contact">Contact.</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="about">
+    
       <p class="title">CLIQENGO.</p>
       <p class="subtitle">NEVER OUT OF TREND</p>
+      <div class="arroww">
+      <img src="assets/icons/long-arrow.svg" class="arrow" />
       <p class="abouttext">ABOUT</p>
-    </div>
+      </div>
+      
+    </section>
 
-    <div class="topbrands">
-      <p class="text">Top Brands</p>
-      <p class="text1">
-        Product finely crafted clothing pieces influenced from popular culture
-        and street<br />
-        fashion : darling of both street fashion and high end fashionistas
-        alike<br />
-      </p>
-      <p class="brands">
-        Louis Vuitton<br />
-        Prada<br />
-        Channel<br />
-        Celine<br />
-        Giorgio Armani<br />
-        Michael Kors<br />
-      </p>
-      <div class="images">
-        <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
-        <img src="assets/icons/long-arrow-right.svg" class="arrowr2" />
-        <img src="assets/icons/long-arrow-right.svg" class="arrowr3" />
-        <img src="assets/icons/long-arrow-right.svg" class="arrowr4" />
-        <img src="assets/icons/long-arrow-right.svg" class="arrowr5" />
-        <img src="assets/icons/long-arrow-right.svg" class="arrowr6" />
-      </div>
-      <div class="lines">
-        <div class="line-1"></div>
-        <div class="line-2"></div>
-        <div class="line-3"></div>
-        <div class="line-4"></div>
-        <div class="line-5"></div>
-        <div class="line-6"></div>
-      </div>
-    </div>
-    <div class="testimony">
-      <p class="t-text">
-        What they<br />
-        say <span>about</span> us
-      </p>
-      <p class="testimony1">
-        “ Amazing take on the new<br />
-        fashion trend. A classic<br />
-        formal wear with a vintage<br />
-        touch. Definitely a winner<br />
-        for future generations.”
-      </p>
-      <p class="testimony2">
-        “ Mesmerizing designs,<br />
-        unique, exquisite and out<br />
-        of this world. We need<br />
-        more designers like this in<br />
-        today's fashion industry.”
-      </p>
-      <p class="t-description">
-        Michelle Wang<br />
-        <span class="span1">Fashion Marketer</span>
-      </p>
-      <p class="t-description2">
-        John Smith<br />
-        <span class="span1">Designer</span>
-      </p>
-      <img src="assets/testimony-1.png" class="t-image" />
-      <img src="assets/testimony-2.png" class="t-image2" />
-    </div>
-  </body>
+    <section class="topbrands">
+        <div class="texts">
+            <p class="text">Top Brands</p>
+            <p class="text1">
+                Product finely crafted clothing pieces influenced from popular
+                culture and street<br />
+                fashion : darling of both street fashion and high end
+                fashionistas alike<br />
+            </p>
+        </div>    
+            <div class="branddd">
+             <div class="brands">
+                Louis Vuitton<br />
+                <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
+             </div>
+     
+             <div class="brands2">
+                Prada<br />
+                <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
+             </div>
+        
+             <div class="brands3">
+                Channel<br />
+                <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
+             </div>
+             <div class="brands4">
+                Celine<br />
+                <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
+             </div>
+             <div class="brands5">
+                 Giorgio Armani<br />
+                <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
+             </div>
+             <div class="brands6">
+                Michael Kors<br />
+                <img src="assets/icons/long-arrow-right.svg" class="arrowr" />
+             </div>
+            </div>
+    </section>
+         
+   <section class="testimony">
+        <div class="testimony-title">What they<br>
+            say <span>about</span> us
+        </div>
+        <div class="test1">
+        <div class="testimony1">
+        <div class="paragraph1">
+        <p>“ Amazing take on the new<br> 
+            fashion trend. A classic<br> 
+            formal wear with a vintage<br> 
+            touch. Definitely a winner<br> 
+            for future generations.”<br>  
+        </p>
+        <div class="name">Michelle Wang</div>
+        <p>Fashion Marketing</p> 
+        </div>  
+
+        <div class="image">
+            <img src="assets/testimony-1.png" class="image">
+        </div>
+        </div>
+        <div class="testimony2">
+        <div class="paragraph2">
+            <p>“ Mesmerizing designs,<br> 
+                unique, exquisite and out<br> 
+                of this world. We need<br> 
+                more designers like this in<br> 
+                today’s fashion industry.”<br>
+            </p>
+            <div class="name">John Smith</div>
+            <p>Fashion Designer</p>    
+        </div>   
+        <div class="image2">
+            <img src="assets/testimony-2.png" alt="image2">
+        </div> 
+        </div>
+        </div>
+    </section>
+    
+    </body>
 </html>
