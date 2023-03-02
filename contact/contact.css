@@ -1,0 +1,132 @@
+.contact-us h2,
+.contact-us p,
+.contact-us h3 {
+  color: var(--color-white);
+}
+
+.contact-us h2 {
+  writing-mode: vertical-rl;
+  color: var(--color-brown);
+  font-size: 3rem;
+  line-height: 100%;
+}
+
+section.contact-us {
+  background-color: var(--color-green);
+}
+
+.contact-us > .flex.container {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.contact-us {
+  padding-bottom: 7rem;
+}
+.flex-item-1 {
+  flex: 10%;
+}
+.flex-item-2,
+.flex-item-3 {
+  flex: 40%;
+}
+.flex-item-3 {
+  margin-left: 4rem;
+}
+
+/* form */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid white;
+  color: white;
+  margin-top: 2rem;
+}
+.p-2 {
+  display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-position-x: 100%;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+}
+
+select:invalid {
+  color: gray;
+}
+
+option[value=""] {
+  color: var(--color-green);
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button[type="submit"] {
+  background-color: var(--color-brown);
+  color: white;
+  padding: 1em 3em;
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+/* FAQ */
+.question-container {
+  border-bottom: 1px solid white;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+a.flex {
+  align-content: center;
+  justify-content: space-between;
+}
+
+a.flex p {
+  max-width: 60%;
+}
+
+/* Connect */
+
+.connect-container {
+  margin-top: 4rem;
+}
+
+.soc-med.flex {
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Media Query ------------------------------------- */
+@media (max-width: 640px) {
+  .contact-us > .flex.container {
+    flex-wrap: wrap;
+  }
+  .title-container {
+    display: inherit;
+    align-items: flex-end;
+  }
+
+  .flex-item-1,
+  .flex-item-2,
+  .flex-item-3 {
+    margin-left: 0;
+    flex: 100%;
+  }
+
+  .p-2 {
+    display: block;
+    margin-left: 1.5rem;
+  }
+
+  .p-1 {
+    display: none;
+  }
+}
